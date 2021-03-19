@@ -9,6 +9,7 @@
   animation: gradientBG 2.5s ease infinite;
   opacity: 1;
   visibility: visible;
+  transition: opacity 1s ease, visibility 1s ease;
   z-index: 999;
   @keyframes gradientBG {
     0%

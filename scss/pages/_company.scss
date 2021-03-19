@@ -98,7 +98,8 @@
   height: 100%;
   opacity: 1;
   visibility: visible;
-  transition: opacity 1s cubic-bezier(0.34,0.615,0.4,0.985),visibility 1s cubic-bezier(0.34,0.615,0.4,0.985);
+  transition: opacity 1s cubic-bezier(0.34, 0.615, 0.4, 0.985),
+    visibility 1s cubic-bezier(0.34, 0.615, 0.4, 0.985);
   overflow: hidden;
   cursor: pointer;
   &:hover {
@@ -109,12 +110,15 @@
       transform: translate(-50%,-50%) scale(0.9);
     }
   }
+  &.is-hide {
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 .video__media {
-  background-image: url(../../images/bg/video-bg.jpg);
   @include bg;
-  transition: transform .5s cubic-bezier(0.34,0.615,0.4,0.985);
+  transition: transform 0.5s cubic-bezier(0.34,0.615,0.4,0.985);
 }
 
 .video__btn {
@@ -124,7 +128,7 @@
   transform: translate(-50%,-50%);
   width: 64px;
   height: 64px;
-  transition: transform .5s cubic-bezier(0.34,0.615,0.4,0.985);
+  transition: transform 0.5s cubic-bezier(0.34,0.615,0.4,0.985);
   &::before,&::after {
     content:'';
     position: absolute;
@@ -137,8 +141,21 @@
     border-radius: 50%;
     animation: light 2s infinite both;
   }
+  @keyframes light {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(1.5);
+    }
+  }
   &::after {
-    animation-delay: .5s;
+    animation-delay: 0.5s;
   }
   @include mq(md){
     width: 100px;
@@ -147,20 +164,6 @@
   @include mq(xl){
     width: 126px;
     height: 126px;
-  }
-}
-
-@keyframes light {
-  0% {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(1);
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(1.5);
   }
 }
 
