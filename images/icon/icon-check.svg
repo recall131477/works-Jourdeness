@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-icon-check">
+      <rect width="30" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="icon-check" clip-path="url(#clip-icon-check)">
+    <path id="Path_26109" data-name="Path 26109" d="M109.772,1027.91l4.609,4.768,7.421-8.264" transform="translate(-101.113 -1013.356)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>

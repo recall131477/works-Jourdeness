@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 15 15">
+  <defs>
+    <clipPath id="clip-icon-club">
+      <rect width="15" height="15"/>
+    </clipPath>
+  </defs>
+  <g id="icon-club" clip-path="url(#clip-icon-club)">
+    <g id="list-icon">
+      <rect id="Rectangle_4077" data-name="Rectangle 4077" width="15" height="15" fill="none"/>
+      <path id="Path_26101" data-name="Path 26101" d="M236.07,250.238a1.626,1.626,0,0,0-1.6-1.654,1.526,1.526,0,0,0-.605.126,1.585,1.585,0,0,0-3.17,0,1.524,1.524,0,0,0-.606-.126,1.658,1.658,0,0,0-.43,3.24,1.691,1.691,0,0,0-.234.854,1.624,1.624,0,0,0,1.594,1.653,1.58,1.58,0,0,0,1.262-.65,1.576,1.576,0,0,0,1.261.65,1.624,1.624,0,0,0,1.592-1.653,1.666,1.666,0,0,0-.235-.854A1.643,1.643,0,0,0,236.07,250.238Z" transform="translate(-224.497 -243.266)" fill="#f05f23"/>
+    </g>
+  </g>
+</svg>

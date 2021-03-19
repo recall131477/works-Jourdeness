@@ -1,0 +1,478 @@
+// productPatent
+
+.product__main {
+  padding-top: 60px;
+  @include mq(md){
+    padding-top: 70px;
+  }
+  @include mq(xl){
+    padding-top: 80px;
+  }
+}
+
+.product__content {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  @include mq(md){
+    padding-top: 70px;
+    padding-bottom: 100px;
+  } 
+  @include mq(xl){
+    padding-top: 80px;
+    padding-bottom: 120px;
+  } 
+}
+
+.product__contentItem {
+  &:first-child {
+    margin-bottom: 40px;
+    @include mq(md){
+      margin-bottom: 60px;
+    }
+    @include mq(xl){
+      margin-bottom: 80px;
+    }
+  }
+  >h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    @include mq(md){
+      font-size: 1.75rem;
+    }
+    @include mq(xl){
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  }
+  >p {
+    margin-bottom: 30px;
+    @include mq(md){
+      margin-bottom: 35px;
+    }
+    @include mq(xl){
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.content__itemRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -60px;
+  margin-bottom: -30px;
+}
+
+.content__itemRowFirst {
+  margin-bottom: 40px;
+  @include mq(md){
+    margin-bottom: 50px;
+  }
+  @include mq(xl){
+    margin-bottom: 60px;
+  }
+}
+
+.content__itemRowTwo {
+  flex-direction: row-reverse;
+}
+
+.content__itemColumn {
+  width: 100%;
+  padding-left: 60px;
+  padding-bottom: 30px;
+  @include mq(md){
+    width: 50%;
+  }
+  >h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    @include mq(md){
+      font-size: 1.75rem;
+    }
+    @include mq(xl){
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  }
+  >p {
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 30px;
+    @include mq(md){
+      margin-bottom: 35px;
+    }
+    @include mq(xl){
+      margin-bottom: 40px;
+    }
+  }
+  >h4 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    @include mq(md){
+      font-size: 1.5rem;
+    }
+    @include mq(xl){
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// productPatent end
+
+// productInnovation
+
+.product__check {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.check__list {
+  position: relative;
+}
+
+.check__item {
+  position: relative;
+  padding-left: 40px;
+  >span {
+    display: inline-block;
+    line-height: 1.75;
+  }
+  &:not(:last-child){
+    margin-bottom: 20px;
+  }
+  &::before {
+    content: '';
+    @include positionA(0,0);
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../images/icon/icon-check.svg);
+    @include bg;
+    border-radius: 50%;
+    background-color: $blue;
+  }
+}
+
+.innovation__content {
+  background-image: url(../../images/bg/material-bg.jpg);
+  @include bg;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  @include mq(md){
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  @include mq(xl){
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+  .content__itemRow {
+    align-items: flex-start;
+    margin-left: -60px;
+    @include mq(md){
+      margin-left: -100px;
+    }
+    @include mq(xl){
+      margin-left: -150px;
+    }
+    .content__itemColumn {
+      padding-left: 60px;
+      @include mq(md){
+        padding-left: 100px;
+      }
+      @include mq(xl){
+        padding-left: 155px;
+      }
+    }
+  }
+}
+
+.content__item {
+  margin-top: 60px;
+  @include mq(md){
+    margin-top: 90px;
+  }
+  @include mq(xl){
+    margin-top: 140px;
+  }
+  .product__contentItem {
+    >h3{
+      margin-bottom: 0;
+    }
+    >span {
+      display: inline-block;
+      margin-bottom: 20px;
+      @include mq($until:xl){
+        margin-bottom: 15px;
+      }
+    }
+    >p{
+      margin-bottom: 0;
+    }
+  }
+}
+
+.product__seriesContent {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  @include mq(md){
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  @include mq(xl){
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+// productInnovation end
+
+// productSeries
+
+.category__main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.category__mainTwo {
+  flex-direction: row-reverse;
+}
+
+.category__media {
+  @include mq(md){
+    width: 40%;
+  }
+  >img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.category__content {
+  padding: 40px 25px 0;
+  @include mq(md){
+    width: 60%;
+    padding: 60px;
+  }
+  @include mq(xl){
+    padding: 60px 120px 60px 80px;
+  }
+  >h2 {
+    font-weight: 600;
+    font-size: 1.75rem;
+    @include mq(md){
+      font-weight: 700;
+      font-size: 2.25rem;
+    }
+    @include mq(xl){
+      font-size: 2.8125rem;
+    }
+  }
+  >span {
+    display: inline-block;
+    margin-bottom: 20px;
+    @include mq(md){
+      margin-bottom: 25px;
+    }
+    @include mq(xl){
+      margin-bottom: 30px;
+    }
+  }
+  >p {
+    color: $gray-600;
+    margin-bottom: 20px;
+    @include mq(md){
+      margin-bottom: 25px;  
+    }
+    @include mq(md){
+      margin-bottom: 30px;  
+    }
+  }
+}
+
+.category__checkList{
+  margin-bottom: 40px;
+  @include mq(md){
+    margin-bottom: 50px;
+  }
+  @include mq(xl){
+    margin-bottom: 60px;
+  }
+  .check__item {
+    &::before{
+      background-color: $primary;
+    }
+  }
+}
+
+.category__contentTwo {
+  >p{
+    margin-bottom: 40px;
+    @include mq(md){
+      margin-bottom: 60px;
+    }
+    @include mq(xl){
+      margin-bottom: 80px;
+    }
+  }
+}
+
+.maintenance__title {
+  margin-bottom: 20px;
+  @include mq(md){
+    margin-bottom: 25px;
+  }
+  @include mq(xl){
+    margin-bottom: 30px;
+  }
+  >h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    @include mq(md){
+    font-size: 2.25rem;
+    font-weight: 700;
+    }
+    @include mq(xl){
+      font-size: 2.8125rem;
+    }
+  }
+}
+
+.maintenance__sliderMain {
+  position: relative;
+  .btn__arrow {
+    position: absolute;
+    top: 95px;
+    @include mq(md){
+      top: 135px;
+    }
+    @include mq(xl){
+      top: 225px;
+    }
+  }
+  .btn__arrowPrev {
+    left: 25px;
+    z-index: 2;
+    @include mq(md){
+      left: 30px;
+    }
+  }
+  .btn__arrowNext {
+    right: 25px;
+    z-index: 2;
+    @include mq(md){
+      right: 30px;
+    }
+  }
+  .swiper-pagination {
+    position: absolute;
+    top: 240px;
+    bottom: auto;
+    left: 0;
+    transform: translateY(-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -25px 0 0;
+    @include mq(md){
+      top: 320px;
+    }
+    @include mq(xl){
+      top: 500px;
+    }
+  }
+
+}
+
+.maintenance__sliderMedia {
+  @include bg;
+  width: 100%;
+  height: 240px;
+  @include mq(md){
+    height: 320px;
+  }
+  @include mq(xl){
+    height: 500px;
+  }
+}
+
+.maintenance__sliderContent {
+  position: relative;
+  padding: 40px 0 60px;
+  @include mq(md){
+    padding: 50px 0 90px;  
+  }
+  @include mq(xl){
+    padding: 60px 0 120px;
+  }
+  h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    @include mq(md){
+      font-size: 1.75rem;  
+    }
+    @include mq(xl){
+      font-size: 2rem;  
+    }
+  }
+  p {
+    margin-bottom: 20px;
+    color: $gray-600;
+    @include mq($until:xl){
+      margin-bottom: 15px;  
+    }
+  }
+  li{
+    >p{
+    color: $gray-500;  
+    }
+  }
+}
+
+.swiper-pagination-bullet {
+  position: relative;
+  font-family: "Noto Serif TC", sans-serif;
+  width: 30px;
+  height: 30px;
+  margin: 0 3px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  opacity: 1;
+  transition: all 0.3s cubic-bezier(0.34, 0.615, 0.4, 0.985);
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 5px;
+    height: 5px;
+    background-color: $gray-600;
+    border-radius: 50%;
+    transition: opacity 0.5s cubic-bezier(0.34, 0.615, 0.4, 0.985);
+  }
+  &:focus {
+    outline: none;
+  }
+  span {
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s cubic-bezier(0.34, 0.615, 0.4, 0.985);
+  }
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $primary;
+  border: 2px solid $primary;
+  &::before {
+    opacity: 0;
+  }
+  span {
+    opacity: 1;
+    transition: opacity 0.5s cubic-bezier(0.34, 0.615, 0.4, 0.985);
+  }
+}
+
+// productSeries end

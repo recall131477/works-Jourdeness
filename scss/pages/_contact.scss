@@ -1,0 +1,117 @@
+.contact {
+  position: relative;
+  background-image: url(../../images/bg/contact-bg.jpg);
+  @include bg;
+  padding: 120px 0 60px;
+  @include mq(md){
+    padding: 150px 0 70px;
+  }
+  @include mq(xl){
+    padding: 190px 0 90px;
+  }
+}
+
+.contact__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -30px;
+}
+
+.contact__column {
+  padding-bottom: 30px;
+  width: 50%;
+  @include mq($until:lg){
+    width: 100%;
+  }
+}
+
+.contact__info {
+  >h2 {
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+    @include mq(md){
+      font-weight: 700;
+      font-size: 2.25rem;
+      margin-bottom: 35px;
+    }
+    @include mq(xl){
+      font-size: 2.8125rem;
+      margin-bottom: 40px;
+    }
+  }
+  >p {
+    color: $gray-600;
+  }
+  @include mq(lg){
+    padding-right: 80px;
+  }
+  @include mq(xl){
+    padding-right: 200px;
+  }
+}
+
+.contact__infoItem {
+  >span {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  li {
+    &:not(:last-child){
+    margin-bottom: 10px;  
+    }
+    >span {
+      display: inline-block;
+    }
+  }
+  &:not(:last-child){
+    border-bottom: 1px solid $gray-600;
+  }
+}
+
+.contact__infoLink {
+  display: flex;
+  flex-wrap: wrap;
+  >span {
+  margin-left: 10px;  
+  }
+}
+
+.contact__code {
+  >a {
+    display: block;
+    width: 160px;
+  }
+}
+
+.form__group {
+  position: relative;
+  margin-bottom: 20px;
+  >textarea {
+    min-height: 150px;
+  }
+  .form__control {
+    &:not(:first-child){
+      padding: 28px 20px 10px 20px;
+    }
+  }
+}
+
+.form__label {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  font-size: 1rem;
+  color: $gray-500;
+  transition: all .5s cubic-bezier(0.34,0.615,0.4,0.985);
+}
+
+.is-focus {
+  position: absolute;
+  top: 8px;
+  font-size: 0.875rem;
+}
+
+.send {
+  margin-top: 10px;
+}

@@ -1,0 +1,157 @@
+.main {
+  position: relative;
+}
+
+.process {
+  position: relative;
+  height: auto;
+  min-height: 100vh;
+}
+
+.process__media {
+  @include positionA(0,0);
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/bg/service-bg.jpg);
+  @include bg;
+}
+
+.process__content {
+  position: relative;
+  padding: 110px 0 60px;
+  @include mq(md){
+    padding: 130px 0 80px;
+  }
+  @include mq(xl){
+    padding: 15vh 0 200px;
+  }
+}
+
+.process__title {
+  font-size: 1.75rem;
+  margin-bottom: 30px;
+  font-weight: 600;
+  @include mq(md){
+    font-size: 2.25rem;
+    margin-bottom: 35px;
+    font-weight: 700;
+  }
+  @include mq(xl){
+    font-size: 2.8125rem;
+    margin-bottom: 40px;
+  }
+}
+
+.process__secondTitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  @include mq(md){
+    margin-bottom: 35px;
+  }
+  @include mq(xl){
+    margin-bottom: 40px;
+  }
+  @include mq($until:md){
+    font-size: 1.25rem;
+  }
+}
+
+.process__img {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  @include mq(md){
+    display: block;
+  }
+}
+
+.process__imgSmall {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  @include mq(md){
+    display: none;
+  }
+}
+
+.process__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.process__item {
+  width: 100%;
+  padding: 50px 25px;
+  @include mq(md){
+    width: 50%;
+    padding: 40px 60px 50px;
+  }
+  @include mq(xl){
+    padding: 70px 120px 90px;
+  }
+  >p{
+    color: $gray-600;
+  }
+}
+
+.process__itemTitle {
+  font-weight: 600;
+  font-size: 1.75rem;
+  @include mq(md){
+    font-weight: 700;
+    font-size: 2.25rem;
+  }
+  @include mq(xl){
+    font-size: 2.8125rem;
+  }
+}
+
+.process__itemSecondTitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  @include mq(md){
+    margin-bottom: 25px;
+  }
+  @include mq(xl){
+    margin-bottom: 30px;
+  }
+  @include mq($until:md){
+    font-size: 1.25rem;
+  }
+}
+
+.process__item{
+  &:last-child{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &:last-child h3{
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    @include mq(md){
+      margin-bottom: 35px;
+      font-size: 1.75rem;
+    }
+    @include mq(xl){
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+  }
+}
+
+.process__link {
+  color: #fff;
+  display: inline-block;
+  min-width: 124px;
+  padding: 14px 30px;
+  border-radius: 40px;
+  transition: background-color .3s cubic-bezier(0.34,0.615,0.4,0.985),
+  color .3s cubic-bezier(0.34,0.615,0.4,0.985),
+  border-color .3s cubic-bezier(0.34,0.615,0.4,0.985);
+  &:hover {
+    background-color: #f37b49;
+  }
+}

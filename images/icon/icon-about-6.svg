@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="105" height="105" viewBox="0 0 105 105">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6180" data-name="Rectangle 6180" width="105" height="105" rx="52.5" transform="translate(618 1123)" fill="#fff" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+    </clipPath>
+    <clipPath id="clip-icon-about-6">
+      <rect width="105" height="105"/>
+    </clipPath>
+  </defs>
+  <g id="icon-about-6" clip-path="url(#clip-icon-about-6)">
+    <g id="Mask_Group_597" data-name="Mask Group 597" transform="translate(-618 -1123)" clip-path="url(#clip-path)">
+      <g id="Group_17998" data-name="Group 17998" transform="translate(-2384.638 3717.467)">
+        <path id="Path_26743" data-name="Path 26743" d="M3082.562-2563.038h-55.848l-2.5,62.218h60.848Z" fill="none" stroke="#333" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_26744" data-name="Path 26744" d="M3068.073-2552.6v-12.913a13.435,13.435,0,0,0-13.435-13.435h0a13.435,13.435,0,0,0-13.434,13.435v12.913" fill="none" stroke="#333" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_887" data-name="Line 887" x2="6.783" transform="translate(3037.714 -2552.603)" fill="none" stroke="#333" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_888" data-name="Line 888" x2="6.783" transform="translate(3064.682 -2552.603)" fill="none" stroke="#333" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <circle id="Ellipse_309" data-name="Ellipse 309" cx="5.413" cy="5.413" r="5.413" transform="translate(3041.562 -2539.625)" fill="none" stroke="#333" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <circle id="Ellipse_310" data-name="Ellipse 310" cx="5.413" cy="5.413" r="5.413" transform="translate(3057.696 -2523.491)" fill="none" stroke="#333" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <line id="Line_889" data-name="Line 889" x1="19.565" y2="26.959" transform="translate(3045.617 -2539.625)" fill="none" stroke="#333" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        <path id="Path_26745" data-name="Path 26745" d="M3085.065-2502.8a49.907,49.907,0,0,0,19.573-39.671,50,50,0,0,0-50-50,50,50,0,0,0-50,50,49.91,49.91,0,0,0,19.574,39.671" fill="none" stroke="#333" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>

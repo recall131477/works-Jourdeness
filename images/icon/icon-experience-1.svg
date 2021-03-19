@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6396" data-name="Rectangle 6396" width="120" height="120" transform="translate(298 2556)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-icon-experience-1">
+      <rect width="120" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="icon-experience-1" clip-path="url(#clip-icon-experience-1)">
+    <g id="Mask_Group_730" data-name="Mask Group 730" transform="translate(-298 -2556)" clip-path="url(#clip-path)">
+      <g id="Group_18537" data-name="Group 18537" transform="translate(316 2561)">
+        <rect id="Rectangle_6401" data-name="Rectangle 6401" width="83.08" height="11.087" transform="translate(0 99.368)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <rect id="Rectangle_6402" data-name="Rectangle 6402" width="17.572" height="10.699" transform="translate(33.94 88.669)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_991" data-name="Line 991" x2="23.404" transform="translate(0 88.669)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_992" data-name="Line 992" y2="10.699" transform="translate(11.702 88.669)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <ellipse id="Ellipse_293" data-name="Ellipse 293" cx="4.816" cy="4.816" rx="4.816" ry="4.816" transform="translate(57.645 19.022)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <path id="Path_27053" data-name="Path 27053" d="M853.728-1688.456H857.6c6.622,0,14.9-3.2,23.027-13.133,8.881-10.854,9.709-37.175-11.651-49.543" transform="translate(-802.217 1777.125)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <rect id="Rectangle_6403" data-name="Rectangle 6403" width="51.734" height="15.597" transform="matrix(0.5, -0.866, 0.866, 0.5, 13.966, 54.742)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <rect id="Rectangle_6404" data-name="Rectangle 6404" width="9.507" height="10.398" transform="matrix(0.5, -0.866, 0.866, 0.5, 11.463, 64.275)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <rect id="Rectangle_6405" data-name="Rectangle 6405" width="9.461" height="12.032" transform="translate(41.377 10.83) rotate(-60)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_993" data-name="Line 993" x2="19.552" y2="11.288" transform="translate(41.541 0)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_994" data-name="Line 994" x2="27.945" y2="16.134" transform="translate(6.747 50.574)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

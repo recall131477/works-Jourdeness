@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="750" viewBox="0 0 1000 750">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_12" data-name="Rectangle 12" width="1440" height="500" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f4f8" stop-opacity="0"/>
+      <stop offset="1" stop-color="#f2f4f8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="1" x2="1.022" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-page-404_2">
+      <rect width="1000" height="750"/>
+    </clipPath>
+  </defs>
+  <g id="page-404_2" data-name="page-404 – 2" clip-path="url(#clip-page-404_2)">
+    <rect width="1000" height="750" fill="#fff"/>
+    <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-220 -75)" clip-path="url(#clip-path)">
+      <g id="Group_41" data-name="Group 41" transform="translate(-1611 145)">
+        <path id="Union_2" data-name="Union 2" d="M0,355C0,200.9,122.526,72.244,285.716,41.82,301.933,20.8,329.156,7,360,7s58.067,13.8,74.284,34.82C597.474,72.244,720,200.9,720,355c0,176.731-161.177,320-360,320S0,531.731,0,355Z" transform="translate(1971 130)" fill="#ff6464"/>
+      </g>
+    </g>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="1440" height="400" transform="translate(-220 425)" fill="url(#linear-gradient)"/>
+    <path id="Path_24" data-name="Path 24" stroke="#ff6464" d="M2349.725,176.917h24l-24,24h24" fill="none" transform="matrix(0.996, -0.087, 0.087, 0.996, -1798.203, 186.64)" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" opacity="0.75"/>
+    <path id="Path_25" data-name="Path 25" stroke="#ff6464" d="M2349.726,176.917h32l-32,32h32" fill="none" transform="matrix(0.966, 0.259, -0.259, 0.966, -1616.185, -677.638)" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" opacity="0.5"/>
+    <path id="Path_26" data-name="Path 26" stroke="#ff6464" d="M2349.726,176.917h40l-40,40h40" fill="none" transform="translate(-1389.48 -1114.957) rotate(25)" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" opacity="0.25"/>
+    <line id="Line_9" data-name="Line 9" x2="14" transform="translate(493 263)" fill="none" stroke="#2a2f31" stroke-linecap="round" stroke-width="1.5"/>
+    <path id="Path_23" data-name="Path 23" d="M3-2C4.657-2,6,4.5,6,8.286S4.657,14,3,14,0,12.073,0,8.286,1.343-2,3-2Z" transform="translate(502 265)" fill="#fff"/>
+    <ellipse id="Ellipse_14" data-name="Ellipse 14" cx="25" cy="6.5" rx="25" ry="6.5" transform="translate(475 244)" fill="#fff"/>
+    <ellipse id="Ellipse_15" data-name="Ellipse 15" cx="3" cy="14" rx="3" ry="14" transform="translate(514 249) rotate(90)" fill="#2a2f31"/>
+    <g id="Group_42" data-name="Group 42" transform="translate(-240 -75)">
+      <ellipse id="Ellipse_8" data-name="Ellipse 8" cx="62" cy="12" rx="62" ry="12" transform="translate(328 511)" fill="#ff929c" opacity="0.25"/>
+      <g id="Group_17" data-name="Group 17" transform="matrix(0.996, -0.087, 0.087, 0.996, -11.772, 33.26)">
+        <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(300 465)" fill="#ff6464" stroke="#fff" stroke-width="4">
+          <path d="M40.8,0H79.2A40.8,40.8,0,0,1,120,40.8v0A19.2,19.2,0,0,1,100.8,60H19.2A19.2,19.2,0,0,1,0,40.8v0A40.8,40.8,0,0,1,40.8,0Z" stroke="none"/>
+          <path d="M40.413,2H79.587A38.413,38.413,0,0,1,118,40.413v0A17.587,17.587,0,0,1,100.413,58H19.587A17.587,17.587,0,0,1,2,40.413v0A38.413,38.413,0,0,1,40.413,2Z" fill="none"/>
+        </g>
+        <g id="Group_16" data-name="Group 16" transform="translate(-721 -90)">
+          <line id="Line_3" data-name="Line 3" y1="26" transform="translate(1056 589)" fill="none" stroke="#fff" stroke-width="4"/>
+          <line id="Line_4" data-name="Line 4" y1="26" transform="translate(1081 589)" fill="none" stroke="#fff" stroke-width="4"/>
+          <line id="Line_5" data-name="Line 5" y1="26" transform="translate(1106 589)" fill="none" stroke="#fff" stroke-width="4"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_43" data-name="Group 43" transform="translate(-200 -75)">
+      <ellipse id="Ellipse_9" data-name="Ellipse 9" cx="62" cy="12" rx="62" ry="12" transform="translate(988 511)" fill="#ff929c" opacity="0.25"/>
+      <g id="Group_18" data-name="Group 18" transform="matrix(0.996, 0.087, -0.087, 0.996, 17.252, -92.245)">
+        <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(1020 465)" fill="#ff6464" stroke="#fff" stroke-width="4">
+          <path d="M40.8,0H79.2A40.8,40.8,0,0,1,120,40.8v0A19.2,19.2,0,0,1,100.8,60H19.2A19.2,19.2,0,0,1,0,40.8v0A40.8,40.8,0,0,1,40.8,0Z" stroke="none"/>
+          <path d="M40.413,2H79.587A38.413,38.413,0,0,1,118,40.413v0A17.587,17.587,0,0,1,100.413,58H19.587A17.587,17.587,0,0,1,2,40.413v0A38.413,38.413,0,0,1,40.413,2Z" fill="none"/>
+        </g>
+        <g id="Group_15" data-name="Group 15" transform="translate(0 -90)">
+          <line id="Line_3-2" data-name="Line 3" y1="26" transform="translate(1056 589)" fill="none" stroke="#fff" stroke-width="4"/>
+          <line id="Line_4-2" data-name="Line 4" y1="26" transform="translate(1081 589)" fill="none" stroke="#fff" stroke-width="4"/>
+          <line id="Line_5-2" data-name="Line 5" y1="26" transform="translate(1106 589)" fill="none" stroke="#fff" stroke-width="4"/>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="120" height="900" transform="translate(0 -75)" fill="url(#linear-gradient-2)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="120" height="900" transform="translate(1000 825) rotate(180)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

@@ -1,0 +1,477 @@
+// coreLaboratory
+
+.rd__center {
+  background-image: url(../../images/bg/R&D-center_bg.jpg);
+  @include bg;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include mq(md){
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  @include mq(xl){
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+.laboratory {
+  position: relative;
+}
+
+.laboratory__slider {
+  &::before {
+    content: '';
+    @include positionA(0,0);
+    width: 100%;
+    background-color: $gray-600;
+    height: 50%;
+    @include mq(lg){
+      max-width: 500px;
+      height: 75%;
+    }
+    @include mq(xl){
+      max-width: 740px;
+    }
+  }
+}
+
+.laboratory__sliderMain {
+  position: relative;
+  padding: 60px 0 60px 40px;
+  @include mq(md){
+    padding: 80px 0 80px 60px;
+  }
+  @include mq(lg){
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 0 120px 120px;
+  }
+  @include mq(xl){
+    padding: 80px 0 120px 360px;
+  }
+}
+
+.laboratory__sliderController {
+  margin-bottom: 30px;
+  flex: 0 0 240px;
+  @include mq(md){
+    margin-bottom: 35px;
+  }
+  @include mq(lg){
+    padding-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.slider__controllerTitle {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 40px;
+  @include mq(md){
+    font-size: 1.75rem;
+    margin-bottom: 80px;
+  }
+  @include mq(xl){
+    font-size: 2rem;
+    margin-bottom: 120px;
+  }
+}
+
+.laboratory__sliderPagination {
+  position: relative;
+  color: #fff;
+  margin-bottom: 20px;
+  @include mq($until:xl){
+    margin-bottom: 15px;
+  }
+  >span{
+    display: inline-block;
+    opacity: 0.5;
+    &:nth-child(2){
+      margin: 0 5px;
+    }
+  }
+  .current__num {
+    font-size: 1.5rem;
+    opacity: 1;
+    @include mq(md){
+      font-size: 1.75rem;
+    }
+    @include mq(xl){
+      font-size: 2rem;
+    }
+  }
+}
+
+
+.laboratory__sliderBtn {
+  display: flex;
+  flex-wrap: wrap;
+  >.btn__arrow {
+    background-color: transparent;
+    border: 1px solid #fff;
+    &:not(:last-child){
+      margin-right: 20px;
+    }
+    &:hover {
+      background-color: $primary;
+      border: 1px solid $primary;
+    }
+  }
+}
+
+.laboratory__sliderSlider {
+  overflow: hidden;
+  @include mq(lg){
+    width: calc(100% - 280px);
+  }
+}
+
+.laboratory__sliderSliderItem {
+  width: 100%;
+  @include mq(lg){
+    width: 380px;
+  }
+}
+
+.laboratory__sliderSliderMedia {
+  width: 100%;
+  padding-top: 50%;
+  @include bg;
+}
+
+.laboratory__sliderSliderContent {
+  background-color: #fff;
+  border: 1px solid $gray-300;
+  padding: 30px 50px 50px;
+  >h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    @include mq(md){
+      font-size: 1.75rem;
+    }
+    @include mq(xl){
+      font-size: 2rem;
+    }
+  }
+  .dot__list {
+    margin-bottom: 20px;
+    @include mq(md){
+      margin-bottom: 25px;
+    }
+    @include mq(xl){
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// coreLaboratory end
+
+// coreFactory
+
+.gallery {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  @include mq(md){
+    padding-top: 70px;
+    padding-bottom: 100px;
+  }
+  @include mq(xl){
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+}
+
+.gallery__tab {
+  white-space: nowrap;
+  overflow-x: auto;
+  margin-bottom: 30px;
+  @include mq(md){
+    margin-bottom: 35px;
+  }
+  @include mq(xl){
+    margin-bottom: 40px;
+  }
+  .btn {
+    &:not(:last-child){
+      margin: 0 10px 0 0;
+      @include mq(md){
+        margin: 0 15px 0 0;
+      }
+      @include mq(xl){
+        margin: 0 20px 0 0;
+      }
+    }
+  }
+}
+
+.gallery__list {
+  @include mq(md){
+    padding: 0 100px;
+  }
+}
+
+.gallery__item {
+  display: none;
+  &.is-active {
+    display: block;
+  }
+}
+
+.gallery__main {
+  margin-bottom: 15px;
+  @include mq(xl){
+    margin-bottom: 20px;
+  }
+}
+
+.gallery__media {
+  width: 100%;
+  padding-top: 50%;
+  @include bg;
+}
+
+.gallery__sub {
+  position: relative;
+  .btn__arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+  }
+  .btn__arrowPrev {
+    left: 0;
+    transform: translate(-50%, -50%);
+    @include mq(md){
+      transform:  translate(-100%,-50%);
+      margin-left: -50px;
+    }
+  }
+  
+  .btn__arrowNext {
+    right: 0;
+    transform: translate(50%, -50%);
+    @include mq(md){
+      transform:  translate(100%,-50%);
+      margin-right: -50px;
+    }
+  }
+}
+
+// coreFactory end
+
+// coreQuality 
+
+.quality {
+  position: relative;
+}
+
+.quality__section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 26%;
+    height: 100%;
+    background-color: $light-pink;
+  }
+  @include mq(md){
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  @include mq(xl){
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  &:nth-child(odd) {
+    &:before {
+      right: 0;
+    }
+    .quality__inner {
+      flex-direction: row-reverse;
+    }
+    .quality__content {
+      @include mq(md){
+        padding-right: 40px;
+      }
+      @include mq(xl){
+        padding-right: 60px;
+      }
+    }
+  }
+  &:nth-child(even) {
+    &:before {
+      left: 0;
+    }
+    .quality__content {
+      @include mq(md){
+        padding-left: 40px;
+      }
+      @include mq(xl){
+        padding-left: 60px;
+      }
+    }
+  }
+}
+
+
+.quality__inner {
+  @include mq(md){
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.quality__item {
+  position: relative;
+  width: 100%;
+  padding-bottom: 30px;
+  @include mq(md){
+    width: 50%;
+  }
+}
+
+.quality__title {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  @include mq(md){
+    font-size: 1.75rem;
+    margin-bottom: 35px;
+  }
+  @include mq(xl){
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+}
+
+.quality__info {
+  margin-bottom: 20px;
+  @include mq($until:xl){
+    margin-bottom: 15px;
+  }
+}
+
+.dot__item {
+  position: relative;
+  padding-left: 25px;
+  >span {
+    line-height: 1.75;
+  }
+  &:not(:last-child){
+    margin-bottom: 5px;
+  }
+  &::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background-image: url(../../images/icon/icon-club.svg);
+    @include bg;
+  }
+}
+
+.simulation {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include mq(md){
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  @include mq(xl){
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+}
+
+.simulation__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -40px;
+  @include mq(md){
+    margin-left: -60px;
+  }
+  @include mq(xl){
+    margin-left: -80px;
+  }
+}
+
+.simulation__column {
+  width: 100%;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  @include mq(md){
+    width: 50%;
+    padding-left: 60px;
+  }
+  @include mq(xl){
+    padding-left: 80px;
+  }
+  
+}
+
+.simulation__title {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  @include mq(md){
+    font-size: 1.75rem;
+    margin-bottom: 35px;
+  }
+  @include mq(xl){
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+}
+
+.vendor {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  background-color: $gray-100;
+  @include mq(md){
+    padding-top: 80px;
+    padding-bottom: 100px;
+  }
+  @include mq(xl){
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+}
+
+.vendor__title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  @include mq(md){
+    font-size: 1.75rem;
+    margin-bottom: 25px;
+  }
+  @include mq(xl){
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+}
+
+.vendor__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vendor__column {
+  width: 50%;
+  @include mq(md){
+    width: 33.33333%;
+  }
+  @include mq(xl){
+    width: 20%;
+  }
+}
+
+// coreQuality end

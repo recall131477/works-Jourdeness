@@ -1,0 +1,53 @@
+.infoes {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  display: block;
+  z-index: 2;
+  @include mq(md) {
+    display: none;
+  }
+}
+
+.infoes__btn {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  background-image: url(../../images/icon/icon-phone.svg);
+  background-size: 20px 20px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 2px solid $primary;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.infoes__list {
+  position: absolute;
+  bottom: 65px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden; 
+  transition: opacity .3s cubic-bezier(0.34,0.615,0.4,0.985),visibility .3s cubic-bezier(0.34,0.615,0.4,0.985);
+  &.is-active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.infoes__item {
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+
+.infoes__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: $primary;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}

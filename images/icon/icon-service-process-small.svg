@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="325" height="575" viewBox="0 0 325 575">
+  <defs>
+    <linearGradient id="linear-gradient" y1="1" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="0.334" stop-color="#f05f23"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="1" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="0.334" stop-color="#555046"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <clipPath id="clip-icon-service-process-small">
+      <rect width="325" height="575"/>
+    </clipPath>
+  </defs>
+  <g id="icon-service-process-small" clip-path="url(#clip-icon-service-process-small)">
+    <g id="Group_18455" data-name="Group 18455" transform="translate(-25 -196)">
+      <path id="Path_26174" data-name="Path 26174" d="M6069.564,3279.77H5856.81a45.07,45.07,0,0,1-43.785-34.185,34.027,34.027,0,0,0-33.062-25.815h-87.617a34.031,34.031,0,0,0-33.063,25.815,45.068,45.068,0,0,1-43.784,34.185H5573a1.5,1.5,0,0,1,0-3h42.5a42.073,42.073,0,0,0,40.874-31.914,37.026,37.026,0,0,1,35.973-28.086h87.617a37.024,37.024,0,0,1,35.973,28.087,42.072,42.072,0,0,0,40.874,31.913h212.754a1.5,1.5,0,0,1,0,3Z" transform="translate(3469.77 -5320.5) rotate(90)" fill="url(#linear-gradient)"/>
+      <path id="Path_26174-2" data-name="Path 26174" d="M6069.564,3216.77H5856.81a45.07,45.07,0,0,0-43.785,34.185,34.027,34.027,0,0,1-33.062,25.815h-87.617a34.031,34.031,0,0,1-33.063-25.815,45.068,45.068,0,0,0-43.784-34.185H5573a1.5,1.5,0,0,0,0,3h42.5a42.073,42.073,0,0,1,40.874,31.914,37.026,37.026,0,0,0,35.973,28.086h87.617a37.024,37.024,0,0,0,35.973-28.087,42.072,42.072,0,0,1,40.874-31.913h212.754a1.5,1.5,0,0,0,0-3Z" transform="translate(3401.77 -5320.5) rotate(90)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient-2)"/>
+      <g id="Group_18395" data-name="Group 18395" transform="translate(-1 -118.5)">
+        <text id="訂單確認" transform="translate(259 673.5)" fill="#333" font-size="20" font-family="SourceHanSansTW-Regular, Source Han Sans TW"><tspan x="-40" y="0">訂單確認</tspan></text>
+        <g id="Rectangle_6078" data-name="Rectangle 6078" transform="translate(203 657) rotate(90)" fill="#fff" stroke="#333" stroke-width="3">
+          <rect width="15" height="28" rx="7.5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="12" height="25" rx="6" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_18392" data-name="Group 18392" transform="translate(-1 -334.5)">
+        <text id="生產" transform="translate(239 955.5)" fill="#333" font-size="20" font-family="SourceHanSansTW-Regular, Source Han Sans TW"><tspan x="-20" y="0">生產</tspan></text>
+        <g id="Rectangle_6078-2" data-name="Rectangle 6078" transform="translate(203 939) rotate(90)" fill="#fff" stroke="#333" stroke-width="3">
+          <rect width="15" height="28" rx="7.5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="12" height="25" rx="6" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_18393" data-name="Group 18393" transform="translate(-1 -390.5)">
+        <text id="檢驗" transform="translate(239 1078.5)" fill="#333" font-size="20" font-family="SourceHanSansTW-Regular, Source Han Sans TW"><tspan x="-20" y="0">檢驗</tspan></text>
+        <g id="Rectangle_6078-3" data-name="Rectangle 6078" transform="translate(203 1062) rotate(90)" fill="#fff" stroke="#333" stroke-width="3">
+          <rect width="15" height="28" rx="7.5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="12" height="25" rx="6" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_17773" data-name="Group 17773" transform="translate(727 -20) rotate(90)">
+        <text id="雙方洽談" transform="translate(245.5 538.5) rotate(-90)" fill="#333" font-size="20" font-family="SourceHanSansTW-Regular, Source Han Sans TW"><tspan x="-40" y="0">雙方洽談</tspan></text>
+        <g id="Rectangle_6084" data-name="Rectangle 6084" transform="translate(261 525)" fill="#fff" stroke="#333" stroke-width="3">
+          <rect width="15" height="28" rx="7.5" stroke="none"/>
+          <rect x="1.5" y="1.5" width="12" height="25" rx="6" fill="none"/>
+        </g>
+      </g>
+      <g id="Group_18394" data-name="Group 18394" transform="translate(-1 -443)">
+        <text id="出貨" transform="translate(239 1201.5)" fill="#333" font-size="20" font-family="SourceHanSansTW-Regular, Source Han Sans TW"><tspan x="-20" y="0">出貨</tspan></text>
+        <g id="Group_17762" data-name="Group 17762" transform="translate(-486 -186)">
+          <circle id="Ellipse_232" data-name="Ellipse 232" cx="20" cy="20" r="20" transform="translate(655 1360)" fill="#333"/>
+          <path id="Path_26109" data-name="Path 26109" d="M109.772,1029.075l6.145,6.357,9.9-11.019" transform="translate(556.774 350.33)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+      <text id="樣品測試" transform="translate(62 459.844)" fill="#333" font-size="18" font-family="SourceHanSansTW-Regular, Source Han Sans TW" letter-spacing="0.02em"><tspan x="-36.54" y="0">樣品測試</tspan></text>
+      <text id="策劃提案_樣品開發" data-name="策劃提案
+樣品開發" transform="translate(62 373.844)" fill="#333" font-size="18" font-family="SourceHanSansTW-Regular, Source Han Sans TW" letter-spacing="0.02em"><tspan x="-36.54" y="0">策劃提案</tspan><tspan x="-36.54" y="26">樣品開發</tspan></text>
+      <rect id="Rectangle_6081" data-name="Rectangle 6081" width="15" height="28" rx="7.5" transform="translate(138 445) rotate(90)" fill="#555046"/>
+      <rect id="Rectangle_6083" data-name="Rectangle 6083" width="15" height="28" rx="7.5" transform="translate(138 372) rotate(90)" fill="#555046"/>
+      <text id="打樣包材_工藝測試" data-name="打樣包材
+工藝測試" transform="translate(313 411.345)" fill="#333" font-size="18" font-family="SourceHanSansTW-Regular, Source Han Sans TW" letter-spacing="0.02em"><tspan x="-36.54" y="0">打樣包材</tspan><tspan x="-36.54" y="26">工藝測試</tspan></text>
+      <rect id="Rectangle_6080" data-name="Rectangle 6080" width="15" height="28" rx="7.5" transform="translate(265 409) rotate(90)" fill="#f05f23"/>
+      <rect id="Rectangle_6085" data-name="Rectangle 6085" width="104" height="90" rx="10" transform="translate(350 196) rotate(90)" fill="#f05f23"/>
+      <path id="Polygon_3" data-name="Polygon 3" d="M11.046,3.02a1,1,0,0,1,1.907,0L23.589,36.7a1,1,0,0,1-.954,1.3H1.364a1,1,0,0,1-.954-1.3Z" transform="translate(241 260) rotate(-90)" fill="#f05f23"/>
+      <text id="代工製造" transform="translate(305 264.631)" fill="#fff" font-size="15" font-family="NotoSerifCJKtc-SemiBold, Noto Serif CJK TC" font-weight="600"><tspan x="-30" y="0">代工製造</tspan></text>
+      <path id="Path_26172" data-name="Path 26172" d="M4.33,9.614C4.33,4.624,5.676.93,8.685.93c2.985,0,4.355,3.694,4.355,8.685,0,5.04-1.37,8.709-4.355,8.709C5.676,18.324,4.33,14.654,4.33,9.614ZM8.685,0C4.11,0,0,3.3,0,9.614,0,16,4.085,19.253,8.685,19.253c4.624,0,8.66-3.278,8.66-9.639C17.345,3.278,13.284,0,8.685,0ZM34.739,13.7h-1.37l-1.125,4.11h-5.5c-.049-2.544-.049-5.137-.049-7.853V9.883h3.352l.343,2.593h1.223V6.287H30.384L30.017,9H26.69c0-2.593,0-5.113.049-7.559h4.966l1.125,3.914H34.25L34.274.489H20.281v.832l2.2.2c.073,2.52.073,5.04.073,7.584v1.076c0,2.544,0,5.064-.073,7.535l-2.2.22v.832H34.788ZM60.793,1.321V.489H54.335L49.491,13.48,44.5.489H37.748v.832l2.593.318-.1,15.951-2.691.342v.832h6.605v-.832l-2.716-.367v-7.29c0-1.566-.049-4.722-.1-7.266l6.018,15.755h1.3L54.506,2.887l-.1,7.877c-.049,1.982,0,4.452-.073,6.948l-2.153.22v.832h8.587v-.832l-2.177-.22c-.073-2.446-.073-4.991-.073-7.535V9.1c0-2.544,0-5.064.073-7.584Z" transform="translate(275 225.564)" fill="#fff"/>
+      <rect id="Rectangle_6086" data-name="Rectangle 6086" width="104" height="90" rx="10" transform="translate(25 300) rotate(-90)" fill="#555046"/>
+      <path id="Polygon_4" data-name="Polygon 4" d="M11.046,3.02a1,1,0,0,1,1.907,0L23.589,36.7a1,1,0,0,1-.954,1.3H1.364a1,1,0,0,1-.954-1.3Z" transform="translate(134 236) rotate(90)" fill="#555046"/>
+      <text id="配方設計" transform="translate(70 265.542)" fill="#fff" font-size="15" font-family="NotoSerifCJKtc-SemiBold, Noto Serif CJK TC" font-weight="600"><tspan x="-30" y="0">配方設計</tspan></text>
+      <path id="Path_26171" data-name="Path 26171" d="M4.33,9.614C4.33,4.624,5.676.93,8.685.93c2.985,0,4.355,3.694,4.355,8.685,0,5.04-1.37,8.709-4.355,8.709C5.676,18.324,4.33,14.654,4.33,9.614ZM8.685,0C4.11,0,0,3.3,0,9.614,0,16,4.085,19.253,8.685,19.253c4.624,0,8.66-3.278,8.66-9.639C17.345,3.278,13.284,0,8.685,0ZM26.739,17.859c-.049-2.569-.049-5.162-.049-7.9V9.15c0-2.642,0-5.211.049-7.731h1.174c3.5,0,5.6,2.838,5.6,8.2,0,5.186-2.079,8.244-5.7,8.244ZM20.281.489v.832l2.2.2c.073,2.52.073,5.064.073,7.633v.807c0,2.74,0,5.284-.073,7.755l-2.2.22v.832h7.584c6.165,0,9.908-3.474,9.908-9.2,0-5.627-3.5-9.076-9.468-9.076Zm43.106.832V.489H56.928L52.084,13.48,47.093.489H40.341v.832l2.593.318-.1,15.951-2.691.342v.832h6.605v-.832l-2.715-.367v-7.29c0-1.566-.049-4.722-.1-7.266l6.018,15.755h1.3L57.1,2.887,57,10.764c-.049,1.982,0,4.452-.073,6.948l-2.153.22v.832h8.587v-.832l-2.177-.22c-.073-2.446-.073-4.991-.073-7.535V9.1c0-2.544,0-5.064.073-7.584Z" transform="translate(38 225.685)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

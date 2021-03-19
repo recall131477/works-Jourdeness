@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="110" viewBox="0 0 220 110">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6384" data-name="Rectangle 6384" width="220" height="110" transform="translate(560 4551)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-lonza-logo">
+      <rect width="220" height="110"/>
+    </clipPath>
+  </defs>
+  <g id="lonza-logo" clip-path="url(#clip-lonza-logo)">
+    <g id="Mask_Group_725" data-name="Mask Group 725" transform="translate(-560 -4551)" clip-path="url(#clip-path)">
+      <g id="Group_18450" data-name="Group 18450" transform="translate(606.75 4595)">
+        <path id="Path_26946" data-name="Path 26946" d="M834.776,810.848h11.2v6.622H826.519V795.826h8.257Z" transform="translate(-826.519 -795.343)" fill="#231815"/>
+        <path id="Path_26947" data-name="Path 26947" d="M922.46,796.293l.071-.094H899.4v5.971h10.223l-.047.049c-.443.6-10.87,14.615-11.27,15.149l-.07.091h23.512v-6.24H911.458c.02-.029.831-1.137.831-1.137C914.76,806.705,922.122,796.742,922.46,796.293Z" transform="translate(-821.917 -795.319)" fill="#231815"/>
+        <g id="Group_18448" data-name="Group 18448" transform="translate(20.993 0)">
+          <path id="Path_26948" data-name="Path 26948" d="M859.128,795.372c-6.84,0-12.882,4.167-12.882,11.479s6.082,11.438,12.882,11.438,12.882-4.127,12.882-11.438S865.969,795.372,859.128,795.372Zm0,16.77a5.317,5.317,0,1,1,5.276-5.316A5.245,5.245,0,0,1,859.128,812.142Z" transform="translate(-846.246 -795.372)" fill="#231815"/>
+        </g>
+        <path id="Path_26949" data-name="Path 26949" d="M887.277,795.619a7.752,7.752,0,0,0-6.315,3.364v-2.77h-7.551v21.271h7.551V806.964a4.444,4.444,0,0,1,4.9-4.661c2.647.23,4.03,1.839,4.03,5.069l.007,10.112h7.546v-12.3C897.442,799.228,893.07,795.533,887.277,795.619Z" transform="translate(-823.51 -795.356)" fill="#231815"/>
+        <g id="Group_18449" data-name="Group 18449" transform="translate(101.737 0.211)">
+          <path id="Path_26950" data-name="Path 26950" d="M939.666,796.067v2.167l-.1-.11a9.163,9.163,0,0,0-6.375-2.554,11.385,11.385,0,0,0-8,3.041,11.239,11.239,0,0,0-3.068,8.22,10.98,10.98,0,0,0,11.149,11.3,7.644,7.644,0,0,0,6.288-2.7l.106-.137v2.19h7.414V796.067Zm-4.5,16.063a5.283,5.283,0,0,1,0-10.566,5.286,5.286,0,0,1,0,10.566Z" transform="translate(-922.122 -795.57)" fill="#231815"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

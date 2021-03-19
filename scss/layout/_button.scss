@@ -1,0 +1,21 @@
+.btn {
+  display: inline-block;
+  min-width: 124px;
+  background-color: transparent;
+  color: $gray-600;
+  padding: 14px 30px;
+  border-radius: 40px;
+  transition: background-color .3s cubic-bezier(0.34,0.615,0.4,0.985),
+  border .3s cubic-bezier(0.34,0.615,0.4,0.985),color .3s cubic-bezier(0.34,0.615,0.4,0.985);
+  border: 1px solid $gray-600;
+  &:hover {
+    background-color: #f05f23;
+    color: #fff;
+    border: 1px solid #f05f23;
+  }
+  &.is-active {
+    background-color: $primary;
+    border: 1px solid $primary;
+    color: #fff;
+  }
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap');
+
+@import 'config/normalize';
+@import 'config/reboot';
+@import 'config/mixins';
+@import 'config/variables';
+@import 'config/sass-mq';
+
+@import 'utilites/spacing/margin';
+@import 'utilites/spacing/padding';
+@import 'utilites/typography/color';
+@import 'utilites/typography/font-family';
+@import 'utilites/typography/font-size';
+@import 'utilites/typography/font-weight';
+@import 'utilites/typography/text-align';
+
+@import 'layout/wrap';
+@import 'layout/cursor';
+@import 'layout/button';
+@import 'layout/loading';
+@import 'layout/header';
+@import 'layout/aside';
+@import 'layout/nav';
+@import 'layout/infoes';
+@import 'layout/tab';
+@import 'layout/banner';
+@import 'layout/footer';
+
+
+@import 'pages/index';
+@import 'pages/core';
+@import 'pages/service';
+@import 'pages/product';
+@import 'pages/company';
+@import 'pages/newevent';
+@import 'pages/contact';
+@import 'pages/policy';
+
+@import 'plugin/aos';

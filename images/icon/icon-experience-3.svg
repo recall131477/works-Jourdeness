@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6398" data-name="Rectangle 6398" width="120" height="120" transform="translate(913 2556)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-icon-experience-3">
+      <rect width="120" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="icon-experience-3" clip-path="url(#clip-icon-experience-3)">
+    <g id="Mask_Group_732" data-name="Mask Group 732" transform="translate(-913 -2556)" clip-path="url(#clip-path)">
+      <g id="Group_18540" data-name="Group 18540" transform="translate(920 2563)">
+        <path id="Path_27065" data-name="Path 27065" d="M1439.89-1752.425v-10.264a7.737,7.737,0,0,0-7.737-7.737H1382.46l-13.46,13.46v78.852a7.737,7.737,0,0,0,7.737,7.737h55.416a7.737,7.737,0,0,0,7.737-7.737v-5.982" transform="translate(-1369 1770.426)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <path id="Path_27066" data-name="Path 27066" d="M1385.681-1770.426v16.194H1369" transform="translate(-1369 1770.426)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <ellipse id="Ellipse_300" data-name="Ellipse 300" cx="27.528" cy="27.528" rx="27.528" ry="27.528" transform="translate(29.794 26.203)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <ellipse id="Ellipse_301" data-name="Ellipse 301" cx="19.789" cy="19.789" rx="19.789" ry="19.789" transform="translate(37.533 33.942)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <rect id="Rectangle_6406" data-name="Rectangle 6406" width="27.351" height="13.762" transform="translate(87.577 74.588) rotate(45)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1003" data-name="Line 1003" x2="6.283" y2="6.283" transform="translate(76.429 73.171)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1004" data-name="Line 1004" x2="6.283" y2="6.283" transform="translate(102.052 98.794)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1005" data-name="Line 1005" x2="7.789" transform="translate(49.981 43.286)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1006" data-name="Line 1006" x2="7.789" transform="translate(49.981 63.492)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1007" data-name="Line 1007" x2="13.32" transform="translate(44.45 56.756)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1008" data-name="Line 1008" x2="13.32" transform="translate(44.45 50.021)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1009" data-name="Line 1009" x2="9.821" transform="translate(12.279 43.286)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1010" data-name="Line 1010" x2="12.417" transform="translate(12.279 36.476)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1011" data-name="Line 1011" x2="16.255" transform="translate(12.279 29.665)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1012" data-name="Line 1012" x2="9.821" transform="translate(12.279 63.492)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1013" data-name="Line 1013" x2="12.417" transform="translate(12.279 70.227)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1014" data-name="Line 1014" x2="16.255" transform="translate(12.279 76.962)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1015" data-name="Line 1015" x2="7.789" transform="translate(12.279 56.756)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+        <line id="Line_1016" data-name="Line 1016" x2="7.789" transform="translate(12.279 50.021)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

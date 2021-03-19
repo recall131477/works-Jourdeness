@@ -1,0 +1,783 @@
+.hero {
+  position: relative;
+  @include mq(md){
+    height: calc(100vh - 60px);  
+  }
+  @include mq($until: md) {
+    z-index: 4;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-pagination {
+    bottom: 65px;
+    left: 120px;
+    text-align: left;
+    display: none;
+    @include mq(md){
+      display: block;
+    }
+  }
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 1px solid $primary;
+    margin: 0 20px 0 0 !important;
+    transition: background-color 0.3s cubic-bezier(0.34, 0.615, 0.4, 0.985),
+      border 0.3s cubic-bezier(0.34, 0.615, 0.4, 0.985);
+    opacity: 1;
+    &::before {
+      background-color: transparent;
+    }
+  }
+  .swiper-pagination-bullet-active {
+    background-color: $primary;
+  }
+}
+
+.hero__slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  @include mq($until:md){
+    overflow: visible;
+  }
+}
+
+.hero__item {
+  @include mq(md){
+    overflow: hidden;
+  }
+}
+
+.hero__media {
+  @include mq($until:md){
+    position: relative;
+    height: 510px;
+  }
+  @include positionA(0,0);
+  width: 100%;
+  height: 100%;
+  @include bg;
+}
+
+.hero__mediaDesktop {
+  display: none;
+  @include mq(md){
+    display: block;
+  }
+}
+
+.hero__mediaMobile {
+  display: block;
+  @include mq(md){
+    display: none;
+  }
+}
+
+.hero__mediaDesktop,.hero__mediaMobile {
+  @include positionA(0,0);
+  width: 100%;
+  height: 100%;
+}
+
+.hero__mediaInner {
+  width: 100%;
+  height: 100%;
+  @include bg;
+}
+
+.hero__mediaHighlight {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  width: 100%;
+  @include mq($until: md) {
+    display: none;
+  }
+  @include mq(md){
+    width: 520px;
+  }
+  @include mq(xl){
+    width: 640px;
+  }
+}
+
+.hero__slogan {
+  @include mq($until:md){
+    width: calc(100% - 25px);
+    background-color: #fff;
+    padding: 20px 25px;
+  }
+  @include mq(md){
+    position: absolute;
+    width: 100%;
+    max-width: 420px;
+    top: 22%;
+    right: 0;
+    padding: 0 40px 0 0;
+  }
+  @include mq(xl){
+    max-width: 600px;
+  }
+  >h2 {
+    font-size: 1.75rem;
+    @include mq(md){
+      font-size: 2.25rem;
+    }
+    @include mq(xl){
+      font-size: 2.8125rem;
+    }
+  }
+}
+
+.hero__btn {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 2;
+}
+
+.hero__btnPrev {
+  left: 0;
+}
+
+.hero__btnNext {
+  right: 0;
+}
+
+.hero__news {
+  width: calc(100% - 25px);
+  background-color: $primary;
+  padding: 30px 15px;
+  margin-left: auto;
+  z-index: 3;
+  @include mq(md){
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 420px;
+    padding: 25px 80px 25px 0;
+  }
+  @include mq(xl){
+    padding: 25px 100px 25px 0;
+    max-width: 600px;
+  }
+}
+
+.hero__newsMain {
+  position: relative;
+  padding: 0 40px;
+  @include mq(md){
+    padding: 0 40px 0 60px;
+  }
+  a {
+    display: block;
+    text-align: right;
+  }
+}
+
+.hero__newsContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  p {
+    position: relative;
+    font-size: 1.125rem;
+    line-height: 1.375;
+    margin: 5px 0 0;
+  }
+}
+
+.hero__newsBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+  width: 20px;
+  height: 40px;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+}
+
+.hero__newsBtnPrev {
+  left: 0;
+  @include mq(md) {
+    left: 20px;
+  }
+}
+
+.hero__newsBtnNext {
+  right: 0;
+}
+
+.hero__scroll {
+  position: absolute;
+  top: calc(100vh - 60px);
+  left: 120px;
+  transform: translateY(-50%);
+  z-index: 102;
+  .btn__arrow {
+    transform: rotate(-90deg);
+    animation: arrowAnimation 2s both infinite;
+  }
+  @keyframes arrowAnimation {
+    0% {
+      transform: translateY(-5px) rotate(-90deg);
+    }
+    50%{
+      transform: translateY(5px) rotate(-90deg);
+    }
+    100%{
+      transform: translateY(-5px) rotate(-90deg);
+    }
+  }
+}
+
+.series {
+  position: relative;
+  background-image: url(../../images/bg/series-slider-bg.jpg);
+  @include bg;
+}
+
+.series__slider {
+  padding: 85px 0 0;
+  @include mq(md){
+    padding: 120px 0 90px;
+  }
+  @include mq(xl){
+    padding: 130px 0 100px;
+  }
+}
+
+.series__sliderMain {
+  position: relative;
+    &::before,&::after {
+      @include mq(xl){
+      content: '';
+      position: absolute;
+      top: 0;
+      width: calc((100% - 900px) / 2);
+      height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 2;
+    }
+  }
+  &::before {
+    left: 0;
+  }
+  &::after {
+    right: 0;
+  }
+  .btn__arrow {
+    position: absolute;
+    z-index: 3;
+    background-color: #fff;
+    >svg {
+      stroke: $gray-600;
+    }
+    @include mq(xl){
+      top: 50%;
+    }
+  }
+  .btn__arrowPrev {
+    @include mq($until: xl) {
+      bottom: 0;
+      left: 25px;
+      transform: translateY(50%);
+    }
+    @include mq(xl){
+      left: calc((100% - 900px) / 2);
+      transform: translate(-50%,-50%);
+    }
+  }
+  .btn__arrowNext {
+    @include mq($until: xl) {
+      bottom: 0;
+      right: 25px;
+      transform: translateY(50%);
+    }
+    @include mq(xl){
+      right: calc((100% - 900px) / 2);
+      transform: translate(50%,-50%);
+    }
+  }
+}
+
+.series__sliderHeader {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  transform: translateY(-100%);
+  @include mq(xl){
+    left: calc((100% - 900px) / 2);
+  }
+  >h2 {
+    line-height: 1;
+    font-size: 3rem;
+    @include mq(md){
+      font-size: 4rem;  
+    }
+    @include mq(xl){
+      font-size: 5rem;  
+    }
+  }
+}
+
+.series__sliderGallery {
+  position: relative;
+}
+
+.series__sliderItem {
+  @include mq(xl){
+    max-width: 900px;
+  }
+}
+
+.series__sliderMedia {
+  width: 100%;
+  padding-top: 50%;
+  @include bg;
+}
+
+.series__sliderInfo {
+  background-color: rgba(255,255,255,0.9);
+  @include mq(xl){
+    position: absolute;
+    top: 0;
+    left: calc((100% - 900px) / 2);
+    width: 100%;
+    height: 100%;
+    max-width: 450px;
+    z-index: 2;
+  }
+}
+
+.series__sliderContent {
+  padding: 45px 25px 40px;
+  @include mq($until:xl){
+    display: none;
+  }
+  @include mq(xl){
+    padding: 60px;
+    @include positionA(0,0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s cubic-bezier(0.34,0.615,0.4,0.985),visibility .5s cubic-bezier(0.34,0.615,0.4,0.985);
+  }
+  &.is-active {
+    @include mq($until:xl){
+      display: block;
+    }
+    @include mq(xl){
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  h3 {
+    margin: 0 0 30px;
+    font-size: 1.5rem;
+    @include mq(md){
+      font-size: 1.75rem;
+    }
+    @include mq(xl){
+      font-size: 2rem;
+    }
+  }
+  p {
+    margin: 0 0 70px;
+    @include mq(xl){
+      max-height: 192px;
+      overflow: hidden;
+    }
+  }
+  a {
+    position: relative;
+    display: inline-block;
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: $primary;
+    }
+  }
+}
+
+.intro {
+  padding: 40px 0;
+  @include mq(md){
+    padding: 80px 0;
+  }
+  @include mq(xl){
+    padding: 120px 0;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -60px;
+  margin-bottom: -30px;
+}
+
+.column {
+  width: 100%;
+  padding-left: 60px;
+  padding-bottom: 30px;
+  @include mq(md) {
+    width: 50%;
+  }
+  >h2{
+    font-size: 1.75rem;
+    font-weight: 600;
+    @include mq(md){
+      font-size: 2.25rem;
+      font-weight: 700;
+    }
+    @include mq(xl){
+      font-size: 2.8125rem;
+    }
+  }
+}
+
+.intro__text {
+  @include mq(md){
+    margin-top: 50px;
+  }
+}
+
+//三大服務
+
+.service {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  @include mq(md){
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  @include mq(xl){
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  background-image: url(../../images/bg/experience-bg.jpg);
+  @include bg;
+}
+
+.service__experienceHeader {
+  margin-bottom: 40px;
+  @include mq(md){
+    margin-bottom: 80px;
+  }
+  @include mq(xl){
+    margin-bottom: 100px;
+  }
+}
+
+.service__experienceTitle {
+  @include mq(md){
+    display: flex;
+    flex-wrap: wrap;
+  }
+  >img {
+    margin-bottom: 20px;
+    @include mq(md){
+      margin-bottom: 25px;
+      margin-right: 50px;
+    }
+    @include mq(xl){
+      margin-bottom: 30px;
+      margin-right: 60px;
+    }
+  }
+}
+
+.service__experienceInfo {
+  >span{
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+}
+
+.ensure {
+  @include mq(md){
+    font-size: 1.75rem;
+  }
+  @include mq(xl){
+    font-size: 2rem;
+  }
+}
+
+.service__link {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  >h3 {
+    margin-left: 10px;
+    @include mq(md){
+      font-size: 1.75rem;
+    }
+    @include mq(xl){
+      font-size: 2rem;
+    }
+  }
+  @include mq(md){
+    margin-bottom: 25px;
+  }
+  @include mq(xl){
+    margin-bottom: 30px;
+  }
+}
+
+.btn__arrow {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  transition: background-color .3s cubic-bezier(0.34,0.615,0.4,0.985),
+  border .3s cubic-bezier(0.34,0.615,0.4,0.985);
+  cursor: pointer;
+  &:hover{
+    background-color: #f37b49;
+  }
+  svg {
+    stroke: #fff;
+    transition:  stroke .3s cubic-bezier(0.34,0.615,0.4,0.985);
+  }
+  @include mq(md){
+    width: 45px;
+    height: 45px;
+  }
+  @include mq(xl){
+    width: 50px;
+    height: 50px;
+  }
+}
+
+
+.service__experienceMain {
+  >.row {
+    @include mq(md){
+      display: flex;
+      flex-wrap: wrap;
+    }
+    margin-left: -20px;
+    margin-bottom: -20px;
+    >.column {
+      padding-left: 20px;
+      padding-bottom: 20px;
+      width: 100%;    
+      @include mq(md){
+        width: 33.333%;
+      }
+    }
+  }
+}
+
+.experience__link {
+  display: block;
+  height: 100%;
+  background-color: rgba(255,255,255,0.5);
+  border: 4px solid #fff;
+  padding: 40px 30px;
+  transition: border .5s ease;
+  &:hover {
+    border: 4px solid $primary;
+  }
+  img {
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+.experience__serviceTitle {
+  margin-bottom: 20px;
+  @include mq(md){
+    font-size: 1.5rem;
+  }
+  @include mq($until:xl){
+    margin-bottom: 15px;
+  }
+}
+
+//七大實驗
+
+.experiment {
+  position: relative;
+  background-image: url(../../images/bg/R&D-bg-1.jpg);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.experiment__research {
+  display: block;
+  padding: 70px 0 220px;
+  @include mq(md){
+    padding: 90px 0 180px;
+  }
+  @include mq(xl){
+    padding: 120px 0 160px;
+  }
+}
+
+.experiment__main {
+  display: flex;
+  flex-wrap: wrap;
+  @include mq(md){
+    justify-content: center;
+  }
+  @include mq(xl){
+    justify-content: flex-end;
+  }
+}
+
+.research__content{
+  width: 100%;
+  @include mq(md){
+    width: 66.66667%;
+  }
+  @include mq(xl){
+    width: 50%;
+  }
+  img {
+    max-width: 255px;
+    margin-bottom: 20px;
+    @include mq(md){
+      max-width: 368px;
+      margin-bottom: 30px;
+    }
+  }
+} 
+
+.research__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  >h2 {
+    font-size: 1.75rem;
+    margin-right: 25px;
+    font-weight: 700;
+    @include mq(md){
+      font-size: 2.25rem;
+    }
+    @include mq(xl){
+      font-size: 2.8125rem;
+    }
+    @include mq($until:md){
+      font-weight: 600;
+    }
+  }
+  >h3 {
+    @include mq(md){
+      font-size: 1.75rem;
+    }
+    @include mq(xl){
+      font-size: 2rem;
+    }
+  }
+}
+
+.research__list {
+  position: relative;
+  @include mq(md){
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.research__item {
+  position: relative;
+  padding-left: 25px;
+  width: 100%;
+  &:not(:last-child){
+    margin-bottom: 5px;
+    @include mq(md){
+      margin-bottom: 10px;
+    }
+  }
+  @include mq(md){
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background-image: url(../../images/icon/icon-club.svg);
+    @include bg;
+  }
+}
+
+//card
+
+.card {
+  position: relative;
+}
+
+.card__list {
+  @include mq(md){
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.card__item {
+  width: 100%;
+  padding: 40px 25px 50px;
+  @include mq(md){
+    width: 50%;
+    padding: 40px 60px 50px;
+  }
+  @include mq(xl){
+    padding: 40px 120px 50px;
+  }
+  >p{
+    margin-bottom: 20px;
+    @include mq(md){
+      margin-bottom: 25px;
+    }
+    @include mq(xl){
+      margin-bottom: 30px;
+    }
+  }
+  >h4{
+    margin-bottom: 20px;
+    @include mq(md){
+      font-size: 1.5rem;
+    }
+    @include mq($until:xl){
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.card__item1 {
+  background-color: $gray-100;
+}
+
+.card__item2 {
+  background-color: $gray-200;
+}

@@ -1,0 +1,58 @@
+.policy {
+  padding: 130px 0 60px;
+  @include mq(md){
+    padding: 140px 0 90px;
+  }
+  @include mq(xl){
+    padding: 150px 0 120px;
+  }
+}
+
+.policy__item {
+  &:not(:last-child){
+    margin-bottom: 40px;
+    @include mq(md){
+      margin-bottom: 50px;
+    }
+    @include mq(xl){
+      margin-bottom: 60px;
+    }
+  }
+  >h2 {
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    @include mq(md){
+      font-weight: 700;
+      font-size: 2.25rem;
+    }
+    @include mq(xl){
+      font-size: 2.8125rem;
+      margin-bottom: 20px;
+    }
+  }
+  >h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    @include mq(md){
+      font-size: 1.75rem;
+    }
+    @include mq(xl){
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  }
+  >p {
+    color: $gray-600;
+  }
+  .dot__item {
+    margin-bottom: 10px;
+  }
+}
+
+.policy__text {
+  margin-bottom: 20px;
+  @include mq($until:xl){
+    margin-bottom: 15px;
+  }
+}
