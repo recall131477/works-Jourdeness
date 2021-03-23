@@ -2149,6 +2149,8 @@ button { border: 0; }
 
 .hero__scroll .btn__arrow { -webkit-transform: rotate(-90deg); transform: rotate(-90deg); -webkit-animation: arrowAnimation 2s both infinite; animation: arrowAnimation 2s both infinite; }
 
+@media (max-width: 47.99em) { .hero__scroll .btn__arrow { display: none; } }
+
 @-webkit-keyframes arrowAnimation { 0% { -webkit-transform: translateY(-5px) rotate(-90deg); transform: translateY(-5px) rotate(-90deg); }
   50% { -webkit-transform: translateY(5px) rotate(-90deg); transform: translateY(5px) rotate(-90deg); }
   100% { -webkit-transform: translateY(-5px) rotate(-90deg); transform: translateY(-5px) rotate(-90deg); } }

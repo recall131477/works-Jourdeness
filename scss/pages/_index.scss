@@ -226,6 +226,9 @@
   .btn__arrow {
     transform: rotate(-90deg);
     animation: arrowAnimation 2s both infinite;
+    @include mq($until:md){
+      display: none;
+    }
   }
   @keyframes arrowAnimation {
     0% {
