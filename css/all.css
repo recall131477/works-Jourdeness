@@ -1532,7 +1532,7 @@ button { border: 0; }
 
 .text-4xl { font-size: 5rem; }
 
-@media (max-width: 576px) { .sm\:text-xs { font-size: 0.75rem; }
+@media (min-width: 576px) { .sm\:text-xs { font-size: 0.75rem; }
   .sm\:text-sm { font-size: 0.875rem; }
   .sm\:text-base { font-size: 1rem; }
   .sm\:text-lg { font-size: 1.25rem; }
@@ -1541,7 +1541,7 @@ button { border: 0; }
   .sm\:text-3xl { font-size: 2.8125rem; }
   .sm\:text-4xl { font-size: 5rem; } }
 
-@media (max-width: 768px) { .md\:text-xs { font-size: 0.75rem; }
+@media (min-width: 768px) { .md\:text-xs { font-size: 0.75rem; }
   .md\:text-sm { font-size: 0.875rem; }
   .md\:text-base { font-size: 1rem; }
   .md\:text-lg { font-size: 1.25rem; }
@@ -1550,7 +1550,7 @@ button { border: 0; }
   .md\:text-3xl { font-size: 2.8125rem; }
   .md\:text-4xl { font-size: 5rem; } }
 
-@media (max-width: 992px) { .lg\:text-xs { font-size: 0.75rem; }
+@media (min-width: 992px) { .lg\:text-xs { font-size: 0.75rem; }
   .lg\:text-sm { font-size: 0.875rem; }
   .lg\:text-base { font-size: 1rem; }
   .lg\:text-lg { font-size: 1.25rem; }
@@ -1559,7 +1559,7 @@ button { border: 0; }
   .lg\:text-3xl { font-size: 2.8125rem; }
   .lg\:text-4xl { font-size: 5rem; } }
 
-@media (max-width: 1200px) { .xl\:text-xs { font-size: 0.75rem; }
+@media (min-width: 1200px) { .xl\:text-xs { font-size: 0.75rem; }
   .xl\:text-sm { font-size: 0.875rem; }
   .xl\:text-base { font-size: 1rem; }
   .xl\:text-lg { font-size: 1.25rem; }
@@ -1572,11 +1572,35 @@ button { border: 0; }
 
 .font-medium { font-weight: 500; }
 
-.font-medium-bold { font-weight: 600; }
+.font-semibold { font-weight: 600; }
 
 .font-bold { font-weight: 700; }
 
 .font-black { font-weight: 900; }
+
+@media (min-width: 576px) { .sm\:font-light { font-weight: 300; }
+  .sm\:font-regular { font-weight: 400; }
+  .sm\:font-medium { font-weight: 500; }
+  .sm\:font-semibold { font-weight: 600; }
+  .sm\:font-bold { font-weight: 700; } }
+
+@media (min-width: 768px) { .md\:font-light { font-weight: 300; }
+  .md\:font-regular { font-weight: 400; }
+  .md\:font-medium { font-weight: 500; }
+  .md\:font-semibold { font-weight: 600; }
+  .md\:font-bold { font-weight: 700; } }
+
+@media (min-width: 992px) { .lg\:font-light { font-weight: 300; }
+  .lg\:font-regular { font-weight: 400; }
+  .lg\:font-medium { font-weight: 500; }
+  .lg\:font-semibold { font-weight: 600; }
+  .lg\:font-bold { font-weight: 700; } }
+
+@media (min-width: 1200px) { .xl\:font-light { font-weight: 300; }
+  .xl\:font-regular { font-weight: 400; }
+  .xl\:font-medium { font-weight: 500; }
+  .xl\:font-semibold { font-weight: 600; }
+  .xl\:font-bold { font-weight: 700; } }
 
 .text-center { text-align: center; }
 
@@ -1584,7 +1608,7 @@ button { border: 0; }
 
 .text-right { text-align: right; }
 
-@media (max-width: 576px) { .sm\:text-center { text-align: center; }
+@media (min-width: 576px) { .sm\:text-center { text-align: center; }
   .sm\:text-left { text-align: left; }
   .sm\:text-right { text-align: right; }
   .sm\:text-center { text-align: center; }
@@ -1609,7 +1633,7 @@ button { border: 0; }
   .sm\:text-left { text-align: left; }
   .sm\:text-right { text-align: right; } }
 
-@media (max-width: 768px) { .md\:text-center { text-align: center; }
+@media (min-width: 768px) { .md\:text-center { text-align: center; }
   .md\:text-left { text-align: left; }
   .md\:text-right { text-align: right; }
   .md\:text-center { text-align: center; }
@@ -1634,7 +1658,7 @@ button { border: 0; }
   .md\:text-left { text-align: left; }
   .md\:text-right { text-align: right; } }
 
-@media (max-width: 992px) { .lg\:text-center { text-align: center; }
+@media (min-width: 992px) { .lg\:text-center { text-align: center; }
   .lg\:text-left { text-align: left; }
   .lg\:text-right { text-align: right; }
   .lg\:text-center { text-align: center; }
@@ -1659,7 +1683,7 @@ button { border: 0; }
   .lg\:text-left { text-align: left; }
   .lg\:text-right { text-align: right; } }
 
-@media (max-width: 1200px) { .xl\:text-center { text-align: center; }
+@media (min-width: 1200px) { .xl\:text-center { text-align: center; }
   .xl\:text-left { text-align: left; }
   .xl\:text-right { text-align: right; }
   .xl\:text-center { text-align: center; }

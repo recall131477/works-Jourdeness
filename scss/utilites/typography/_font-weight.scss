@@ -1,3 +1,11 @@
+$weight:(
+  light: 300,
+  regular: 400,
+  medium: 500,
+  semibold: 600,
+  bold: 700,
+);
+
 // 文字粗細
 .font-light {
   font-weight: 300;
@@ -7,7 +15,7 @@
   font-weight: 500;
 }
 
-.font-medium-bold {
+.font-semibold {
   font-weight: 600;
 }
 
@@ -17,4 +25,15 @@
 
 .font-black {
   font-weight: 900;
+}
+
+// 文字寬度RWD
+@each $breakpontKey, $breakpointValue in $mq-breakpoints {
+  @media (min-width: #{$breakpointValue}px) {
+    @each $weightKey,$weightValue in $weight {
+      .#{$breakpontKey}\:font-#{$weightKey}{
+        font-weight: $weightValue; 
+      }  
+    }
+  }
 }

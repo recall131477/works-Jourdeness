@@ -10,6 +10,8 @@ $font:(
   4xl: 5rem        // 80px
 );
 
+
+
 @each $key,$value in $font {
   .text-#{$key}{
     font-size: $value; 
@@ -18,10 +20,10 @@ $font:(
 
 // 文字大小RWD
 @each $breakpontKey, $breakpointValue in $mq-breakpoints {
-  @media (max-width: #{$breakpointValue}px) {
-    @each $key,$value in $font {
-      .#{$breakpontKey}\:text-#{$key}{
-        font-size: $value; 
+  @media (min-width: #{$breakpointValue}px) {
+    @each $fontKey,$fontValue in $font {
+      .#{$breakpontKey}\:text-#{$fontKey}{
+        font-size: $fontValue; 
       }  
     }
   }

@@ -12,7 +12,7 @@
 
 // 文字置中、左、右RWD
 @each $breakpontKey, $breakpointValue in $mq-breakpoints {
-  @media (max-width: #{$breakpointValue}px) {
+  @media (min-width: #{$breakpointValue}px) {
     @each $key, $value in $font {
       .#{$breakpontKey}\:text-center {
         text-align: center;
