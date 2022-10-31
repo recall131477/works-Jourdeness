@@ -4,7 +4,7 @@
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "emmet.triggerExpansionOnTab": true,
-  "liveServer.settings.port": 8082,
+  "liveServer.settings.port": 8083,
   "liveSassCompile.settings.formats": [
     // This is Default.
     // {
